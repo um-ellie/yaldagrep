@@ -15,10 +15,11 @@ As I am an aspiring programmer and continuously learning, feedback and suggestio
 - Rust implementation for performance and reliability
 
 ## Usage
-To use Yalda Grep Tools, simply run the executable and provide the query and file path as command-line arguments.
+To use Yalda Grep Tool, simply run the executable and provide the query and file path as command-line arguments:
 
+```bash
 $ ./ygrep <query> <file_path>
-
+```
 
 ### Options
 - `<query>`: The string you want to search for within the file.
@@ -26,15 +27,17 @@ $ ./ygrep <query> <file_path>
 
 ### Example
 
-$ ./ygrep "search" <file_name>
-
+```bash
+$ ./ygrep "search" example.txt
+```
 
 ## Installation
-To install Yalda Grep Tools, you need to compile the Rust source code into an executable. Make sure you have Rust installed on your system, then navigate to the project folder and run the following command:
+To install Yalda Grep Tool, you need to compile the Rust source code into an executable. Make sure you have Rust installed on your system, then navigate to the project folder and run the following command:
 
+```bash
 $ cd yaldagrep
 $ cargo build --release
-
+```
 
 This will create an executable file named `ygrep` in the `target/release` directory.
 
@@ -48,5 +51,4 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 - Ellie Pourreza - Initial implementation
 
 ## Contact
-For questions or inquiries, feel free to contact Ellie Pourreza at [ellieeepr@gmail.com](mailto:ellieeepr@gmail.com).
-
+For questions or inquiries, feel free to contact Ellie Pourreza at [ellieeepr@gmail.com](mailto:umellie8@gmail.com).
