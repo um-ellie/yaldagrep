@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["search_insensitive_case","search_sensitive_case"]};

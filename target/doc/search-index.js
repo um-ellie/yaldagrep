@@ -1,0 +1,8 @@
+var searchIndex = new Map(JSON.parse('[\
+["grab",{"doc":"","t":"FNNONNONONNN","n":["GrabConfig","borrow","borrow_mut","file_path","from","grabargs","ignore_case","into","query","try_from","try_into","type_id"],"q":[[0,"grab"],[12,"core::result"],[13,"alloc::string"],[14,"core::iter::traits::iterator"],[15,"core::any"]],"d":["Configuration for the Yalda Grep Tool.","","","The path to the file to search in.","Returns the argument unchanged.","Parses command-line arguments to generate a GrabConfig …","Whether the search should be case-insensitive.","Calls <code>U::from(self)</code>.","The query string to search for.","","",""],"i":[0,1,1,1,1,1,1,1,1,1,1,1],"f":"`{ce{}{}}0`{cc{}}{c{{f{bd}}}{{l{}{{h{j}}}}}}`2`{c{{f{e}}}{}{}}0{cn{}}","c":[],"p":[[5,"GrabConfig",0],[1,"str"],[6,"Result",12],[17,"Item"],[5,"String",13],[10,"Iterator",14],[5,"TypeId",15]],"b":[]}],\
+["run",{"doc":"","t":"H","n":["run"],"q":[[0,"run"],[1,"grab"],[2,"core::error"],[3,"alloc::boxed"],[4,"core::result"]],"d":["Executes the search based on the provided configuration."],"i":[0],"f":"{b{{j{d{h{f}}}}}}","c":[],"p":[[5,"GrabConfig",1],[1,"unit"],[10,"Error",2],[5,"Box",3],[6,"Result",4]],"b":[]}],\
+["search",{"doc":"","t":"HH","n":["search_insensitive_case","search_sensitive_case"],"q":[[0,"search"],[2,"alloc::vec"]],"d":["Searches for a query string in the contents …","Searches for a query string in the contents …"],"i":[0,0],"f":"{{bb}{{d{b}}}}0","c":[],"p":[[1,"str"],[5,"Vec",2]],"b":[]}],\
+["ygrep",{"doc":"Yalda Grep Tool","t":"H","n":["main"],"q":[[0,"ygrep"]],"d":[""],"i":[0],"f":"{{}b}","c":[],"p":[[1,"unit"]],"b":[]}]\
+]'));
+if (typeof exports !== 'undefined') exports.searchIndex = searchIndex;
+else if (window.initSearch) window.initSearch(searchIndex);
